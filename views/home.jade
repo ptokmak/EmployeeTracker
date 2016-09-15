@@ -1,0 +1,32 @@
+extends ./wrapper.jade
+
+block content
+  div(class="big-text text-center") Keep Your Employees Biz-E!
+  div(class="med-text text-center") 
+
+  hr
+
+  .row
+    .col-md-6
+      .med-text Biz-E:
+      .sma-text
+        ul
+          li Keeps track of what you want to get done.
+          li Keeps track of what you have done.
+          li Lets you see what other people have done.
+          li Lets other people see all that you've done.
+        span BUT
+        ul
+          li Lets you keep what you want private.
+          li Lets you keep EVERYTHING private.
+
+    .col-md-6
+      if data.quotes.length > 0
+        .med-text Some of our admiring fans:
+        ul
+          - for (var i = 0; i < data.quotes.length; i++)
+            li.quote-block
+              .quote "#{data.quotes[i].quote}"
+              .quote-author -#{data.quotes[i].author}
+      else
+        .med-text Keep Biz-E!

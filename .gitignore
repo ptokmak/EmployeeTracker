@@ -1,0 +1,9 @@
+# Ignoring installed node modules.
+node_modules/
+
+# Ignoring installed bower components.
+bower_components/
+
+
+
+**/*npm-debug.log.*

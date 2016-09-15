@@ -1,0 +1,21 @@
+extends ./wrapper.jade
+
+block css-extra
+  link(rel="stylesheet" href="/static/css/manage.css")
+
+block content
+  if data.userSuccess
+    if data.goalsSuccess
+      h1 #{data.name}'s Tasks
+      ul
+        - for (var i = 0; i < data.goals.length; i++)
+          li
+            if data.goals[i].completed
+              h3.done-goal #{data.goals[i].value}
+              h6.small Done!
+            else
+              h3 #{data.goals[i].value}
+    else
+      h1.text-center #{data.name} doesn't have any tasks set.
+  else
+    h1.text-center #{data.name} does not exist.
