@@ -1,6 +1,5 @@
 //   The main application file for the API sub-program.
 
-/////////////
 // Imports //
 var express    = require('express'),
     login      = require('./api/login.js'),
@@ -10,7 +9,6 @@ var express    = require('express'),
     editgoal   = require('./api/editgoal.js'),
     removegoal = require('./api/removegoal.js');
 
-//////////
 // Code //
 
 // Creating the sub-app
@@ -32,6 +30,5 @@ app.all('*', function (req, res) {
     });
 });
 
-/////////////
 // Exports //
 module.exports = app;
