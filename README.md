@@ -13,5 +13,5 @@ $ node app.js
 
  run mongod 
 
-# Applciation url: http://localhost:3000
+# Application url: http://localhost:3000
 ```
