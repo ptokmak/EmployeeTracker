@@ -2,7 +2,6 @@
 var schema = require('../schema.js'),
     common = require('./common.js');
 
-//////////
 // Code //
 
 // Registering the user with the application.
@@ -58,6 +57,5 @@ function post(req, res) {
     }
 }
 
-/////////////
 // Exports //
 module.exports.post = post;

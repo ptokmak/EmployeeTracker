@@ -1,13 +1,11 @@
 //   This file specifies the behavior that Gulp should take on for this project.
 
-/////////////
 // Imports //
 var gulp    = require('gulp'),
     watch   = require('gulp-watch'),
     react   = require('gulp-react'),
     nodemon = require('nodemon');
 
-//////////
 // Code //
 
 // Some global constants.

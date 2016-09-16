@@ -1,11 +1,9 @@
 //   The API endpoint for editing a goal.
 
-/////////////
 // Imports //
 var schema = require('../schema.js'),
     common = require('./common.js');
 
-//////////
 // Code //
 
 // The actual API endpoint.
@@ -62,6 +60,5 @@ function post(req, res) {
     }
 }
 
-/////////////
 // Exports //
 module.exports.post = post;

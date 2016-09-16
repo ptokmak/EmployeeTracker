@@ -1,7 +1,6 @@
 //   A helper module to keep track of adding middlewares without bogging down
 //   the main module.
 
-/////////////
 // Imports //
 var express      = require('express'),
     bodyParser   = require('body-parser'),
@@ -11,7 +10,6 @@ var express      = require('express'),
     logger       = require('./middlewares/logger.js'),
     favicon      = require('./middlewares/favicon.js');
 
-//////////
 // Code //
 
 // Creating the sub-app.
@@ -25,6 +23,5 @@ app.use(recovery.middleware);                                // Recovering from 
 app.use('/static/', express.static(__dirname + '/static/')); // Serving files from the static directory.
 app.use(logger.middleware);                                  // Logging all of the requests.
 
-/////////////
 // Exports //
 module.exports = app;

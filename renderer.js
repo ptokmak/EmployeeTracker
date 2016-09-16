@@ -49,7 +49,6 @@ function renderAndSend(path, req, res, externData) {
     });
 }
 
-/////////////
 // Exports //
 module.exports.render = render;
 module.exports.renderAndSend = renderAndSend;

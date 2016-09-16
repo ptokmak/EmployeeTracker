@@ -1,12 +1,10 @@
 //   This module provides the API endpoint to mark a goal as finished.
 
-/////////////
 // Imports //
 var renderer = require('../renderer.js'),
     schema = require('../schema.js'),
     common = require('./common.js');
 
-//////////
 // Code //
 
 // The actual POST endpoint.
@@ -78,6 +76,5 @@ function post(req, res) {
     }
 }
 
-/////////////
 // Exports //
 module.exports.post = post;

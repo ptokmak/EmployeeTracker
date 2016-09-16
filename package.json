@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ptokmak/Biz-E.git"
+    "url": "git+ssh://git@github.com/ptokmak/EmployeeTracker.git"
   },
   "author": "",
   "license": "MIT",
@@ -32,5 +32,5 @@
     "gulp-watch": "^1.1.0",
     "nodemon": "^1.2.1"
   },
-  "homepage": "https://github.com/ptokmak/Biz-E#readme"
+  "homepage": "https://github.com/ptokmak/EmployeeTracker#readme"
 }

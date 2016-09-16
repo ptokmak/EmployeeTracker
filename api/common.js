@@ -1,10 +1,8 @@
 //   A set of common functions used within the API.
 
-/////////////
 // Imports //
 var sha512 = require('crypto-js/sha512');
 
-//////////
 // Code //
 
 // Hashing a given string (into a base64 string)
@@ -19,7 +17,6 @@ function hasAll(from, names) {
     return true;
 }
 
-/////////////
 // Exports //
 module.exports.hashString = hashString;
 module.exports.hasAll = hasAll;

@@ -1,7 +1,6 @@
 //   The main app file for the project. Sets everything up and starts the
 //   server.
 
-/////////////
 // Imports //
 var express      = require('express'),
     mongoose     = require('mongoose'),
@@ -13,7 +12,6 @@ var express      = require('express'),
     routes      = require('./routes.js'),
     api         = require('./api.js');
 
-//////////
 // Code //
 var app = express();
 

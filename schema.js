@@ -1,11 +1,9 @@
 //   This module provides the database connection and schema for the rest of the
 //   program.
 
-/////////////
 // Imports //
 var mongoose = require('mongoose');
 
-//////////
 // Code //
 
 // The schema to be used with the database.
@@ -31,6 +29,5 @@ var schema = {
     })
 };
 
-/////////////
 // Exports //
 module.exports.get = schema;

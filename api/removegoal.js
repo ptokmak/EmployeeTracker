@@ -1,11 +1,9 @@
 //   The API endpoint for removing a user's goal.
 
-/////////////
 // Imports //
 var schema = require('../schema.js'),
     common = require('./common.js')
 
-//////////
 // Code //
 
 // The POST function.
@@ -41,6 +39,5 @@ function post(req, res) {
     }
 }
 
-/////////////
 // Exports //
 module.exports.post = post;

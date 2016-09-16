@@ -1,12 +1,10 @@
 //   This API endpoint deals with the creation of new goals for a user.
 
-/////////////
 // Imports //
 var renderer = require ('../renderer.js'),
     schema = require('../schema.js'),
     common = require('./common.js');
 
-//////////
 // Code //
 
 // Adding a new goal to a user's list.
@@ -84,6 +82,5 @@ function post(req, res) {
     }
 }
 
-/////////////
 // Exports //
 module.exports.post = post;

@@ -1,6 +1,5 @@
 //   A helper module to keep adding routes from affecting the main module.
 
-/////////////
 // Imports //
 var express  = require('express'),
     home     = require('./routes/home.js'),
@@ -11,7 +10,6 @@ var express  = require('express'),
     manage   = require('./routes/manage.js'),
     notfound = require('./routes/notfound.js');
 
-//////////
 // Code //
 
 // Creating the sub-app.
@@ -26,6 +24,5 @@ app.get('/user/:name', userpage.get); // A user page.
 app.get('/manage/'   , manage.get  ); // The manage page.
 app.all('*'          , notfound.all); // Serving a 404 page.
 
-/////////////
 // Exports //
 module.exports = app;
