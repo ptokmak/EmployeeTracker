@@ -1,0 +1,13 @@
+What does this app do?
+Goal is to keep the business owner/manager informed with what the employees are working on. Major tasks. Employees register and provide their usernames to their manager. And manager reviews employees tasks and will have an idea of who has capacity for more work or who is overloaded.  
+
+To test my app:
+It is easy to register for a username and a password. With your new user name go to "Task Manager" and start logging your major tasks. 
+You can modify, update and delete.
+
+I have a sample account that you can look up. 
+Username: TestUN
+Pasword: TestUN
+
+Without any registration, you can search this username (TestUN)  and see the tasks this user has been logging. 
+
